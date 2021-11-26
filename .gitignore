@@ -1,1 +1,3 @@
 .DvorakJ/user/akoyama/.ssh/
+*.vimrc~
+*.un~
