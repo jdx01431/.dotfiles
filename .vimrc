@@ -4,7 +4,7 @@ scriptencoding utf-8
 " An example for a Japanese version vimrc file.
 " 日本語版のデフォルト設定ファイル(vimrc) - Vim 8.1
 "
-" Last Change: 31-May-2020.
+" Last Change: 26-Nov-2021.
 " Maintainer:  MURAOKA Taro <koron.kaoriya@gmail.com>
 "
 " 解説:
@@ -307,6 +307,19 @@ set  wildmenu
 
 " 検索の標準を very magic
 nnoremap /  /\v
+
+" 行間を広げる
+set linespace=10
+
+" swpファイル出力先
+set directory=$TEMP
+" バックアップファイル出力先
+set backupdir=$TEMP
+" undoファイル出力先
+set undodir=$TEMP
+
+
+
 
 " 2020/04/27 テスト中
 
